@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeZee | Socialist</title>
     <!-- Link Css -->
-     <link rel="stylesheet" href="./Css/Style.css">
+    <link rel="stylesheet" href="/src/Css/Style.css" />
     <!-- TailwindCss -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <!-- Header -->
-    <header class="w-full flex flex-col justify-end h-[50vh] m-6 mx-auto">
+    <header class="relative  flex flex-col justify-end h-[50vh]">
+      <!-- Background Img -->
+       <img src="/src/img/personal.jpg" alt="background img - ZeYad Picture" class="absolute rounded-xl">
       <!-- Container -->
-      <div class="container backdrop-blur px-4 flex flex-col  space-y-4 z-50 rounded-xl">
-          <!-- Name And icon -->
+      <div
+        class="container backdrop-blur-md bg-gradient-to-t from-black/80 to-transparent px-4 py-2 flex flex-col space-y-4 z-50 rounded-b-xl"
+      >
+        <!-- Name And icon -->
         <div class="main-info flex items-center space-x-2">
           <h1 class="text-xl text-white font-semibold">Zeyad Kahlil</h1>
-          <img src="./img/icons8-verification-48.png" alt="" class="w-6 h-6"/>
+          <img src="/src/img/verfication.png" alt="" class="w-6 h-6" />
         </div>
         <!-- Description -->
         <div class="description">
@@ -27,35 +31,54 @@
         </div>
         <!-- Bottom Header -->
         <div class="bottom-section flex justify-around items-center">
-          <h1 class="text-white font-semibold">Let's Conect</h1>
-<button class="styled-button">
-    Register Now
-    <div class="inner-button">
-      <svg
-        id="Arrow"
-        viewBox="0 0 32 32"
-        xmlns="http://www.w3.org/2000/svg"
-        height="30px"
-        width="30px"
-        class="icon"
-      >
-        <defs>
-          <linearGradient y2="100%" x2="100%" y1="0%" x1="0%" id="iconGradient">
-            <stop style="stop-color:#FFFFFF;stop-opacity:1" offset="0%"></stop>
-            <stop style="stop-color:#AAAAAA;stop-opacity:1" offset="100%"></stop>
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#iconGradient)"
-          d="M4 15a1 1 0 0 0 1 1h19.586l-4.292 4.292a1 1 0 0 0 1.414 1.414l6-6a.99.99 0 0 0 .292-.702V15c0-.13-.026-.26-.078-.382a.99.99 0 0 0-.216-.324l-6-6a1 1 0 0 0-1.414 1.414L24.586 14H5a1 1 0 0 0-1 1z"
-        ></path>
-      </svg>
-    </div>
-  </button>
-          </div>
+          <h1 class="text-white font-semibold">Let's Connect</h1>
+          <!-- Button -->
+          <button class="styled-button">
+            Contact Now
+            <div class="inner-button">
+              <svg
+                id="Arrow"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+                height="30px"
+                width="30px"
+                class="icon"
+              >
+                <defs>
+                  <linearGradient
+                    y2="100%"
+                    x2="100%"
+                    y1="0%"
+                    x1="0%"
+                    id="iconGradient"
+                  >
+                    <stop
+                      style="stop-color: #ffffff; stop-opacity: 1"
+                      offset="0%"
+                    ></stop>
+                    <stop
+                      style="stop-color: #aaaaaa; stop-opacity: 1"
+                      offset="100%"
+                    ></stop>
+                  </linearGradient>
+                </defs>
+                <path
+                  fill="url(#iconGradient)"
+                  d="M4 15a1 1 0 0 0 1 1h19.586l-4.292 4.292a1 1 0 0 0 1.414 1.414l6-6a.99.99 0 0 0 .292-.702V15c0-.13-.026-.26-.078-.382a.99.99 0 0 0-.216-.324l-6-6a1 1 0 0 0-1.414 1.414L24.586 14H5a1 1 0 0 0-1 1z"
+                ></path>
+              </svg>
+            </div>
+          </button>
+        </div>
       </div>
     </header>
+    <!-- Social-Cards -->
+     <main class="px-2">
+      <div id="Social-Container" class="max-w-full bg-green-100/50  px-4 mt-4 py-6 rounded-xl">
+        
+      </div>
+     </main>
     <!-- JsPath -->
-    <script src="./js/main.js"></script>
+    <script src="/src/Js/main.js"></script>
   </body>
 </html>

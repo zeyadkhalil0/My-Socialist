@@ -1,0 +1,53 @@
+{
+  "social_platforms": [
+    {
+      "id": 1,
+      "name": "YouTube",
+      "description": "Watch my latest tutorials and tech content.",
+      "link": "https://youtube.com/yourchannel",
+      "icon": "/src/icons/youtube.png"
+    },
+    {
+      "id": 2,
+      "name": "Instagram",
+      "description": "Daily updates, reels, and behind-the-scenes content.",
+      "link": "https://instagram.com/yourprofile",
+      "icon": "./src/icons/instagram.png"
+    },
+    {
+      "id": 3,
+      "name": "Facebook",
+      "description": "Follow for updates and community posts.",
+      "link": "https://facebook.com/yourprofile",
+      "icon": "./src/icons/facebook.png"
+    },
+    {
+      "id": 4,
+      "name": "GitHub",
+      "description": "Open-source projects, code samples, and repositories.",
+      "link": "https://github.com/yourusername",
+      "icon": "./src/icons/github.png"
+    },
+    {
+      "id": 5,
+      "name": "LinkedIn",
+      "description": "Professional updates, achievements, and networking.",
+      "link": "https://linkedin.com/in/yourprofile",
+      "icon": "./src/icons/linkedin.png"
+    },
+    {
+      "id": 6,
+      "name": "TikTok",
+      "description": "Short tech videos and coding tips.",
+      "link": "https://tiktok.com/@yourprofile",
+      "icon": "./src/icons/tiktok.png"
+    },
+    {
+      "id": 7,
+      "name": "WhatsApp",
+      "description": "Contact me directly for quick communication.",
+      "link": "https://wa.me/200000000000",
+      "icon": "./src/icons/whatsapp.png"
+    }
+  ]
+}
