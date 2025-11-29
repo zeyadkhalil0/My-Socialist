@@ -12,7 +12,7 @@
       "name": "Instagram",
       "description": "Daily updates, reels, and behind-the-scenes content.",
       "link": "https://instagram.com/yourprofile",
-      "icon": "./src/icons/instagram.png"
+      "icon": "./src/icons/Instagram.png"
     },
     {
       "id": 3,
