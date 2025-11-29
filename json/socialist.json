@@ -4,50 +4,57 @@
       "id": 1,
       "name": "YouTube",
       "description": "Watch my latest tutorials and tech content.",
-      "link": "https://youtube.com/yourchannel",
-      "icon": "/src/icons/youtube.png"
+      "link": "https://youtube.com/@zeyaddkhalil",
+      "icon": "/src/icons/youtube.png",
+      "button": "Subscribe"
     },
     {
       "id": 2,
       "name": "Instagram",
       "description": "Daily updates, reels, and behind-the-scenes content.",
-      "link": "https://instagram.com/yourprofile",
-      "icon": "./src/icons/Instagram.png"
+      "link": "https://instagram.com/_zeyad.1",
+      "icon": "/src/icons/Instagram.png",
+      "button": "Follow"
     },
     {
       "id": 3,
       "name": "Facebook",
       "description": "Follow for updates and community posts.",
       "link": "https://facebook.com/yourprofile",
-      "icon": "./src/icons/facebook.png"
+      "icon": "/src/icons/facebook.png",
+      "button": "Follow"
     },
     {
       "id": 4,
       "name": "GitHub",
       "description": "Open-source projects, code samples, and repositories.",
-      "link": "https://github.com/yourusername",
-      "icon": "./src/icons/github.png"
+      "link": "https://github.com/zeyadkhalil0",
+      "icon": "/src/icons/github.png",
+      "button": "View Profile"
     },
     {
       "id": 5,
       "name": "LinkedIn",
       "description": "Professional updates, achievements, and networking.",
-      "link": "https://linkedin.com/in/yourprofile",
-      "icon": "./src/icons/linkedin.png"
+      "link": "https://linkedin.com/in/zeyadkhalill",
+      "icon": "/src/icons/linkedin.png",
+      "button": "Connect"
     },
     {
       "id": 6,
       "name": "TikTok",
       "description": "Short tech videos and coding tips.",
-      "link": "https://tiktok.com/@yourprofile",
-      "icon": "./src/icons/tiktok.png"
+      "link": "https://tiktok.com/@codezee3",
+      "icon": "/src/icons/tiktok.png",
+      "button": "Follow"
     },
     {
       "id": 7,
       "name": "WhatsApp",
       "description": "Contact me directly for quick communication.",
-      "link": "https://wa.me/200000000000",
-      "icon": "./src/icons/whatsapp.png"
+      "link": "https://wa.me/201050076851",
+      "icon": "/src/icons/whatsapp.png",
+      "button": "Message"
     }
   ]
 }
