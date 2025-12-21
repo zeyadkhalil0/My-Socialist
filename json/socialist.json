@@ -2,6 +2,14 @@
   "social_platforms": [
     {
       "id": 1,
+      "name": "Memory Blocks Game",
+      "description": "Try It Now",
+      "link": "https://memory-blocks.vercel.app/",
+      "icon": "/src/icons/memoryblocks.png",
+      "button": "Play Now"
+    },
+    {
+      "id": 2,
       "name": "YouTube",
       "description": "Watch my latest tutorials and tech content.",
       "link": "https://youtube.com/@zeyaddkhalil",
