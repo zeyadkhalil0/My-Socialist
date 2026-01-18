@@ -3,10 +3,30 @@
 body{
     background-image: url(/src/img/body-bg.jpg);
     background-position: center;
-    background-size: cover;
+    background-size :cover;
 }
 
+@media (max-width : 768px) {
+  body{
+    background-image: url(/src/img/body-bg.jpg);
+    background-position: center;
+    background-size :contain;
+}
+}
 
+.personal-img{
+  border: 2px solid red;
+  animation: Colorize 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes Colorize {
+  from {
+    border-color: red;
+  }
+  to {
+    border-color: blue;
+  }
+}
 
 /* From Uiverse.io by elijahgummer */ 
 .styled-button {
